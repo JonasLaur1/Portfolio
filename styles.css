@@ -41,12 +41,6 @@ nav a {
     text-align: center;
 }
 
-.intro img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
 .cta-button {
     display: inline-block;
     margin-top: 1em;
@@ -87,8 +81,8 @@ nav a {
 }
 
 .skill img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 
 .project-slider {
@@ -101,6 +95,7 @@ nav a {
 .project-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    flex-direction: row;
 }
 
 .project-card {
@@ -114,7 +109,7 @@ nav a {
 }
 
 .project-card img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
 }
@@ -139,7 +134,7 @@ nav a {
     background: #1c86ee;
 }
 
-.contact form {
+#contact form {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -147,8 +142,8 @@ nav a {
     max-width: 400px;
 }
 
-.contact input,
-.contact textarea {
+#contact input,
+#contact textarea {
     background: #2b2b2b;
     color: #e0e0e0;
     border: none;
@@ -156,7 +151,7 @@ nav a {
     border-radius: 5px;
 }
 
-.contact button {
+#contact button {
     background: #1e90ff;
     color: #fff;
     border: none;
@@ -165,7 +160,7 @@ nav a {
     cursor: pointer;
 }
 
-.contact button:hover {
+#contact button:hover {
     background: #1c86ee;
 }
 
