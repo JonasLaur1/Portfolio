@@ -52,10 +52,10 @@ nav a {
     border-radius: 5px;
     text-decoration: none;
 }
+
 .cta-button:hover {
     scale: 1.1;
     background: #1277dd;
-
 }
 
 .about-container {
@@ -94,7 +94,7 @@ nav a {
 .project-slider {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     overflow: hidden;
 }
 
@@ -119,6 +119,40 @@ nav a {
     height: auto;
     border-radius: 10px;
 }
+
+.project-card .project-image {
+    width: auto;
+    height: 300px;
+}
+
+.project-card p {
+    text-align: left;
+}
+
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.tech-stack h6 {
+    margin-bottom: 0.5rem;
+    color: #1e90ff;
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+.tech-stack-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tech-stack-icons img {
+    width: 50px; /* Standardize the size of the icons */
+    height: 50px; /* Standardize the size of the icons */
+}
+
 
 .project-buttons {
     display: flex;
@@ -189,5 +223,5 @@ footer {
 
 .project-card .moviesearch{
     width: auto;
-    height: 250px;
+    height: 300px;
 }
