@@ -186,3 +186,8 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+.project-card .moviesearch{
+    width: auto;
+    height: 250px;
+}
